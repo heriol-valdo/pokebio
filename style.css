@@ -1,0 +1,229 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+
+    max-width: 100%;
+    margin:0;
+    margin-bottom: 150px;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    font-family: 'poppins';
+    
+}
+#bg{
+   /* background-image: url(https://source.unsplash.com/featured/?men,fashion,sneakers);*/
+   background-image: url(images/saumon.jpeg);
+    /*https://images.unsplash.com/photo-1549942686-486aa99d2223*/
+    background-repeat: no-repeat;
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+#banner_content {
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.carousel-inner img {
+    width: 100%;
+    height:100%;
+}
+.footer{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #141414;
+    min-height:150px;
+    padding-top:40px;
+    width: 100%;
+   
+    bottom: 0;
+    
+}
+.container  a {
+    color:black;
+}
+.container a:hover{
+    color:grey;
+    
+}
+#size{
+    max-height:200px;
+}
+
+
+ .profil{
+            margin-top: 20%;
+        }
+
+
+
+
+
+/* Un peu de design quand même*/
+/*body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.376)) ,url('../img/bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}*/
+
+h1{
+    color: orange;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fleche {
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 9000;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid #dfdfdf;
+}
+
+#mise {
+    width: 300px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    color: orange;
+}
+
+#roue {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+}
+
+/* Button */
+
+#jouer{
+    position: relative;
+    top: -8px;
+    padding: 6px 22px;
+    font-size: 20px;
+    background-color: #ffbc40;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
+
+/* Portefeuille   and Command*/
+
+#portefeuille {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+#commande {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    padding: 5px 30px;
+    color: rgb(0, 0, 0);
+   
+}
+}
+
+#portefeuille .monnaie {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 970px) {
+    #portefeuille {
+        top: 12%;
+        right: 5%;
+        }
+
+    #commande {
+        top: 12%;
+        right: 5%;
+        padding: 8px 25px;
+        
+    }
+    #portefeuille .monnaie {
+        font-size: 16px;
+        line-height: 1.2;    
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    #portefeuille {
+        margin-top: 13%;
+        }
+
+        .profil{
+            height: 8%;
+        }
+
+    #commande {
+         top: 13%;
+        padding: 5px 10px;
+    }
+    #portefeuille .monnaie {
+        font-size: 12px;  
+    }    
+}
+
+@media screen and (max-width: 650px) {
+   .profil{
+            margin-top: 10%;
+        }
+
+
+    #portefeuille {
+        top: 20%;
+    }
+
+    #commande {
+        top: 20%;
+    }
+}
+
+
+#toast-container > .customer-success {            
+background-color: green;
+}
+
+#toast-container > .customer-error {            
+background-color: red;
+}
+
+#toast-container > .customer-authentification {    
+    margin:auto;
+background-color: blue;
+}

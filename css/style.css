@@ -1,0 +1,185 @@
+body{
+    display: flex;
+	flex-direction: column;
+}
+
+#nav{
+	background-color: white;
+	height: 100px;
+	position:fixed;
+	display: flex;
+	flex-direction: row;
+}
+
+.card{
+	margin:auto;
+	
+
+}
+
+.card1{
+	height: 20px;
+	width: auto;
+	
+
+}
+
+main{
+	margin:auto;
+	margin-top:70px;
+	margin-bottom: 80px;
+}
+
+.carouselExampleDark{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	margin:auto;
+}
+
+#contact{
+	margin: auto;
+	margin-top: 100px;
+}
+
+#work{
+
+margin-top: 80px;
+}
+
+.carousel{
+	margin-left:10px;
+}
+
+#vedette{
+	height:120px;
+}
+
+.h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #666666;
+  padding: 4rem 4rem;
+  font-weight: bold; }
+
+  .about {
+  	color: white;
+  	font-weight: bold;
+  	font-size: 60px;
+  	font-style: oblique;
+  	margin-left: 15px;  
+  	margin-top: 150px;
+    font-weight: bold; }
+
+.about1 {
+  	color: white;
+  	font-weight: bold;
+  	font-size: 60px;
+  	font-style: oblique;
+  	
+  	margin-left: 15px;  
+  	margin-top: 30px;
+ 
+ 
+  font-weight: bold; }
+
+
+.divhome{
+	background-image: url('../images/home1.jpg'); 
+	height:500px;
+	opacity: 0.7;
+}
+
+
+.presentation{
+	margin-top:160px;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: flex;
+	flex-direction:row;
+	 box-shadow: black; 
+
+}
+.presentationimage{
+	margin-top: 0px;
+	height:400px;
+	opacity: 0.7;
+
+}
+
+
+
+#toast-container > .customer-success {            
+background-color: green;
+}
+
+#toast-container > .customer-error {            
+background-color: red;
+}
+
+#toast-container > .customer-authentification {    
+	margin:auto;
+background-color: blue;
+}
+
+
+@media screen and (max-width:842px){
+#vedette{
+height:20px;
+}
+
+.divhome{
+	background-image: url('../images/carousel2.jpg'); 
+	height:300px;
+	opacity: 0.7;
+}
+
+.about1 {
+  	color: white;
+  	font-weight: bold;
+  	font-size: 20px;
+  	font-style: oblique;
+  	
+  	margin-left: 15px;  
+  	margin-top: 10px;
+ 
+ 
+  font-weight: bold; }
+
+  .about {
+  	color: white;
+  	font-weight: bold;
+  	font-size: 20px;
+  	font-style: oblique;
+  	margin-left: 15px;  
+  	margin-top: 150px;
+    font-weight: bold; }
+
+    .presentationimage{
+	margin-top: 0px;
+	height:300px;
+	width: auto;
+	opacity: 0.7;
+
+}
+
+.reli{
+	height: 10px;
+	visibility: hidden;
+	display: none;
+}
+
+.presentation{
+	border: solid white;
+	margin-top:100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction:column;
+	
+	 
+}
+
+
+
+
+}
